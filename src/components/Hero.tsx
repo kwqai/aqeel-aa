@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 const Hero = () => {
   return (
-    <div id="hero" className='min-h-screen bg-no-repeat bg-[url(/Images1/abimg1/189.jpeg)] bg-left lg:bg-[15%] bg-cover'
+    <div id="hero" className='min-h-screen bg-no-repeat bg-[url(/images1/abimg1/189.jpeg)] bg-left lg:bg-[15%] bg-cover'
         style={{backgroundSize: "35%"}}
         >
     <Navbar />
