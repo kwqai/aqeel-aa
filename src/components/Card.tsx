@@ -8,11 +8,11 @@ interface propsType {
     tags: string[];
 }
 
-const Carda:React.FC<propsType> = ({ title, desc, img, tags }) => {
+const Card:React.FC<propsType> = ({ title, desc, img, tags }) => {
   return (
     <div className='border border-accent w-[300px] sm:w-[350px]' data-aos="zoom-in-up">
       <div>
-        <Image className='w-[300px] sm:[350px] h-auto'
+        <Image className='w-[300px] sm:w-[350px] h-auto'
         src={img}
         width={350}
         height={350}
@@ -36,4 +36,4 @@ const Carda:React.FC<propsType> = ({ title, desc, img, tags }) => {
   )
 }
 
-export default Carda
+export default Card

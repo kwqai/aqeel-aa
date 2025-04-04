@@ -1,6 +1,6 @@
 import React from 'react'
-import Heading from './Heading'
-import Card from './Card'
+import Heading from './Heading';
+import Card from './Card';
 
 const data = [
 
@@ -9,7 +9,7 @@ const data = [
     title: "To do List",
     desc: " A react and typescript based app",
     img: "/project01_01.jpg",
-    tags: ["React", "React", "React", "React", "React",]
+    tags: ["React", "React", "React", "React", "React"],
 
 },
 
@@ -18,7 +18,7 @@ const data = [
     title: "To do List",
     desc: " A react and typescript based app",
     img: "/project01_01.jpg",
-    tags: ["React", "React", "React", "React", "React",]
+    tags: ["React", "React", "React", "React", "React"],
 
 },
 
@@ -27,7 +27,7 @@ const data = [
     title: "To do List",
     desc: " A react and typescript based app",
     img: "/project01_01.jpg",
-    tags: ["React", "React", "React", "React", "React",]
+    tags: ["React", "React", "React", "React", "React"],
 
 },
 
@@ -36,7 +36,7 @@ const data = [
     title: "To do List",
     desc: " A react and typescript based app",
     img: "/project01_01.jpg",
-    tags: ["React", "React", "React", "React", "React",]
+    tags: ["React", "React", "React", "React", "React"],
 
 },
 
@@ -45,7 +45,7 @@ const data = [
     title: "To do List",
     desc: " A react and typescript based app",
     img: "/project01_01.jpg",
-    tags: ["React", "React", "React", "React", "React",]
+    tags: ["React", "React", "React", "React", "React"],
 
 },
 
@@ -54,7 +54,7 @@ const data = [
     title: "To do List",
     desc: " A react and typescript based app",
     img: "/project01_01.jpg",
-    tags: ["React", "React", "React", "React", "React",]
+    tags: ["React", "React", "React", "React", "React"],
 
 },
 
@@ -63,13 +63,11 @@ const data = [
     title: "To do List",
     desc: " A react and typescript based app",
     img: "/project01_01.jpg",
-    tags: ["React", "React", "React", "React", "React",]
+    tags: ["React", "React", "React", "React", "React"],
 
 },
 
-
-
-]
+];
 
 const Projects = () => {
   return (
