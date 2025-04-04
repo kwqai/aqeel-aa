@@ -2,8 +2,6 @@ import React from 'react'
 
 interface propsType {
     title: string;
-
-
 }
 
 const Heading: React.FC<propsType> = ({title}) => {
