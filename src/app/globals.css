@@ -5,7 +5,7 @@
 @layer base {
   body {
     color: #46257b;
-    background-color: #b76d87;
+    background-color: #140505;
   }
 }
 
@@ -15,7 +15,7 @@
   }
 
   .tags {
-    background-color: #0abde3;
+    background-color: #17f13f;
     margin-right: 0.5rem;
     margin-top: 0.5rem;
     padding: 3px 10px;
@@ -39,6 +39,19 @@
   .tags:nth-child(4) {
     background-color: #eb4d4b; 
   }
+
+  .tags:nth-child(5) {
+    background-color: #720b8f; 
+  }
+
+  .tags:nth-child(6) {
+    background-color: #96c03c; 
+  }
+
+  .tags:nth-child(7) {
+    background-color: #a9bb23; 
+  }
+
 }
 
 
